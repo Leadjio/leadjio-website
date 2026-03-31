@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leadjio — AI Agents That Work While You Sleep</title>
+  <meta name="description" content="Leadjio builds custom AI agents for Education, Finance, HR, Sales, and Customer Support. We turn everyday tasks into smart automation so your business runs while you sleep." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <circle cx="14" cy="14" r="13" stroke="url(#logoGrad)" stroke-width="2"/>
+            <path d="M8 14 L12 10 L16 14 L20 10" stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M8 18 L12 14 L16 18 L20 14" stroke="url(#logoGrad)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+            <defs>
+              <linearGradient id="logoGrad" x1="0" y1="0" x2="28" y2="28" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#7c3aed"/>
+                <stop offset="1" stop-color="#a855f7"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="logo-text">Leadjio</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#solutions">Solutions</a></li>
+        <li><a href="#platform">Platform</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-ghost">Contact Us</a>
+        <a href="#contact" class="btn btn-primary">Get Started</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+
+    <div class="container hero-inner">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        AI Agent Platform — Now Live
+      </div>
+
+      <h1 class="hero-title">
+        We Turn Everyday Tasks<br />
+        Into <span class="gradient-text">Smart Automation</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Your business, automated. 24/7.
+      </p>
+
+      <p class="hero-desc">
+        Leadjio builds intelligent AI agents tailored to your workflows — from customer support to finance reconciliation. Deploy in weeks, not months.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary btn-lg">
+          Start Automating
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#how-it-works" class="btn btn-ghost btn-lg">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M6.5 5.5l4 2.5-4 2.5V5.5z" fill="currentColor"/></svg>
+          See How It Works
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">500+</span>
+          <span class="stat-label">Agents Deployed</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">95%</span>
+          <span class="stat-label">Task Automation Rate</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">4 Weeks</span>
+          <span class="stat-label">Average Deployment</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">24/7</span>
+          <span class="stat-label">Always On</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating cards animation -->
+    <div class="floating-cards">
+      <div class="float-card float-card-1">
+        <div class="fc-icon">🎓</div>
+        <div class="fc-text">
+          <strong>Education Agent</strong>
+          <span>Grading automated</span>
+        </div>
+        <div class="fc-status active">Active</div>
+      </div>
+      <div class="float-card float-card-2">
+        <div class="fc-icon">💰</div>
+        <div class="fc-text">
+          <strong>Finance Agent</strong>
+          <span>Invoice processed</span>
+        </div>
+        <div class="fc-status active">Active</div>
+      </div>
+      <div class="float-card float-card-3">
+        <div class="fc-icon">🤝</div>
+        <div class="fc-text">
+          <strong>Sales Agent</strong>
+          <span>Lead qualified</span>
+        </div>
+        <div class="fc-status active">Active</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOLUTIONS ===== -->
+  <section class="solutions" id="solutions">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Solutions</div>
+        <h2 class="section-title">AI Agents for Every Industry</h2>
+        <p class="section-desc">Purpose-built agents that understand your domain, integrate with your tools, and deliver results from day one.</p>
+      </div>
+
+      <div class="solutions-grid">
+
+        <div class="sol-card" data-index="0">
+          <div class="sol-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect x="3" y="5" width="22" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M9 13h10M9 17h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M7 5V3M21 5V3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Education</h3>
+          <p>Automate grading, student onboarding, course scheduling, and personalized learning recommendations.</p>
+          <ul class="sol-features">
+            <li>Automated assignment grading</li>
+            <li>Student progress tracking</li>
+            <li>Course enrollment workflows</li>
+            <li>Parent communication bots</li>
+          </ul>
+          <a href="#contact" class="sol-link">Explore Education <span>→</span></a>
+        </div>
+
+        <div class="sol-card" data-index="1">
+          <div class="sol-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 3v22M3 14h22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="14" cy="14" r="5" stroke="currentColor" stroke-width="1.5"/><path d="M9 9l10 10M19 9L9 19" stroke="currentColor" stroke-width="1" stroke-linecap="round" opacity="0.4"/></svg>
+          </div>
+          <h3>Finance</h3>
+          <p>Streamline invoice processing, reconciliation, expense approvals, and financial reporting with zero manual effort.</p>
+          <ul class="sol-features">
+            <li>Invoice & PO processing</li>
+            <li>Bank reconciliation</li>
+            <li>Expense approval workflows</li>
+            <li>Fraud detection alerts</li>
+          </ul>
+          <a href="#contact" class="sol-link">Explore Finance <span>→</span></a>
+        </div>
+
+        <div class="sol-card" data-index="2">
+          <div class="sol-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="10" r="5" stroke="currentColor" stroke-width="1.5"/><path d="M5 24c0-4.97 4.03-9 9-9s9 4.03 9 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M20 14l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>HR & Recruitment</h3>
+          <p>Automate resume screening, interview scheduling, onboarding checklists, and employee query resolution.</p>
+          <ul class="sol-features">
+            <li>Resume screening & ranking</li>
+            <li>Interview scheduling</li>
+            <li>Onboarding automation</li>
+            <li>HR policy Q&A bot</li>
+          </ul>
+          <a href="#contact" class="sol-link">Explore HR <span>→</span></a>
+        </div>
+
+        <div class="sol-card" data-index="3">
+          <div class="sol-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M4 20L10 14L14 18L20 10L24 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="8" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Sales & Marketing</h3>
+          <p>Qualify leads, personalize outreach, schedule demos, and follow up — all on autopilot around the clock.</p>
+          <ul class="sol-features">
+            <li>Lead scoring & qualification</li>
+            <li>Personalized email outreach</li>
+            <li>Demo & meeting scheduling</li>
+            <li>CRM data enrichment</li>
+          </ul>
+          <a href="#contact" class="sol-link">Explore Sales <span>→</span></a>
+        </div>
+
+        <div class="sol-card" data-index="4">
+          <div class="sol-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M4 8h20v12a2 2 0 01-2 2H6a2 2 0 01-2-2V8z" stroke="currentColor" stroke-width="1.5"/><path d="M4 8l10 8 10-8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Customer Support</h3>
+          <p>Deploy agents that handle Tier-1 support, ticket routing, refunds, and escalations — 24/7, no wait time.</p>
+          <ul class="sol-features">
+            <li>Instant query resolution</li>
+            <li>Smart ticket routing</li>
+            <li>Refund & return processing</li>
+            <li>Escalation management</li>
+          </ul>
+          <a href="#contact" class="sol-link">Explore Support <span>→</span></a>
+        </div>
+
+        <div class="sol-card sol-card-highlight" data-index="5">
+          <div class="sol-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 4l3 6 6 1-4.5 4.5 1 6.5L14 19l-5.5 3 1-6.5L5 11l6-1z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Custom Agents</h3>
+          <p>Have a unique workflow? We design and build fully bespoke AI agents tailored to your exact business process.</p>
+          <ul class="sol-features">
+            <li>Full workflow analysis</li>
+            <li>Bespoke agent design</li>
+            <li>Deep system integrations</li>
+            <li>Ongoing optimization</li>
+          </ul>
+          <a href="#contact" class="sol-link">Build Custom Agent <span>→</span></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Process</div>
+        <h2 class="section-title">From Process to Automation<br />in 3 Simple Steps</h2>
+        <p class="section-desc">No complex setup. No months of engineering. Just a clear path from your workflow to a working agent.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3>Map Your Workflow</h3>
+            <p>Share your existing process — SOPs, spreadsheets, or just a conversation. We identify every repetitive task that can be automated.</p>
+          </div>
+          <div class="step-visual">
+            <div class="step-card">
+              <div class="sc-row"><div class="sc-dot purple"></div><span>Identify manual tasks</span></div>
+              <div class="sc-row"><div class="sc-dot purple"></div><span>Map decision points</span></div>
+              <div class="sc-row"><div class="sc-dot purple"></div><span>Audit integrations</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="step-connector">
+          <div class="connector-line"></div>
+          <div class="connector-arrow">↓</div>
+        </div>
+
+        <div class="step step-reverse">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3>We Build Your Agent</h3>
+            <p>Our team designs, trains, and tests a custom AI agent using your data and tools — integrated with your existing stack in weeks.</p>
+          </div>
+          <div class="step-visual">
+            <div class="step-card">
+              <div class="sc-row"><div class="sc-dot blue"></div><span>Agent design & training</span></div>
+              <div class="sc-row"><div class="sc-dot blue"></div><span>System integrations</span></div>
+              <div class="sc-row"><div class="sc-dot blue"></div><span>QA & accuracy testing</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="step-connector">
+          <div class="connector-line"></div>
+          <div class="connector-arrow">↓</div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3>Deploy & Watch It Work</h3>
+            <p>Go live with full monitoring dashboards, human-in-the-loop overrides, and continuous learning — so your agent gets smarter every day.</p>
+          </div>
+          <div class="step-visual">
+            <div class="step-card">
+              <div class="sc-row"><div class="sc-dot green"></div><span>Live deployment</span></div>
+              <div class="sc-row"><div class="sc-dot green"></div><span>Real-time monitoring</span></div>
+              <div class="sc-row"><div class="sc-dot green"></div><span>Continuous learning</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PLATFORM ===== -->
+  <section class="platform" id="platform">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Platform</div>
+        <h2 class="section-title">Built for Scale.<br />Designed for Trust.</h2>
+        <p class="section-desc">Every Leadjio agent is powered by enterprise-grade infrastructure with the flexibility your team needs.</p>
+      </div>
+
+      <div class="features-grid">
+
+        <div class="feature-card">
+          <div class="feat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h4>Autonomous Workflows</h4>
+          <p>Agents that make decisions, adapt to exceptions, and complete multi-step tasks without human intervention.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 12a9 9 0 1018 0A9 9 0 003 12z" stroke="currentColor" stroke-width="1.5"/><path d="M12 8v4l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h4>Continuous Self-Learning</h4>
+          <p>Your agents improve with every interaction, learning from corrections and feedback to boost accuracy over time.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M4 20c0-4 3.58-7 8-7s8 3 8 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M17 3l2 2-2 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h4>Human-in-the-Loop</h4>
+          <p>Keep full control with escalation pathways and approval gates for critical decisions — always trust, always verify.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="14" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="3" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="14" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h4>1000+ Integrations</h4>
+          <p>Connect with Slack, Salesforce, HubSpot, Google Workspace, Jira, Notion, and thousands more via native connectors.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </div>
+          <h4>Enterprise Security</h4>
+          <p>SOC 2 Type II ready, GDPR compliant, end-to-end encryption, and role-based access control as standard.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M2 12h20M12 2l8 10-8 10-8-10z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h4>Real-Time Analytics</h4>
+          <p>Live dashboards show every task processed, time saved, errors caught, and ROI generated — complete visibility.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMPARISON ===== -->
+  <section class="comparison">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Why Leadjio</div>
+        <h2 class="section-title">The Cost of Doing It Manually</h2>
+      </div>
+      <div class="compare-table">
+        <div class="compare-col compare-col-before">
+          <div class="compare-header">
+            <span class="compare-label bad">Without Leadjio</span>
+          </div>
+          <ul>
+            <li>❌ Hours lost on repetitive data entry</li>
+            <li>❌ Human errors in reports & invoices</li>
+            <li>❌ Hiring costs for routine work</li>
+            <li>❌ Slow response to customer queries</li>
+            <li>❌ Business stops when team is offline</li>
+            <li>❌ Scattered tools, no single workflow</li>
+          </ul>
+        </div>
+        <div class="compare-vs">VS</div>
+        <div class="compare-col compare-col-after">
+          <div class="compare-header">
+            <span class="compare-label good">With Leadjio</span>
+          </div>
+          <ul>
+            <li>✅ Fully automated, zero manual effort</li>
+            <li>✅ 98%+ accuracy, every time</li>
+            <li>✅ Scale without scaling headcount</li>
+            <li>✅ Instant responses, 24/7</li>
+            <li>✅ Agents run non-stop, even weekends</li>
+            <li>✅ Unified automation across all tools</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="about">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Testimonials</div>
+        <h2 class="section-title">Trusted by Teams Who<br />Demand Results</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Leadjio deployed a recruitment agent for us in 3 weeks. It now screens 200+ resumes a day and schedules interviews automatically. Our HR team finally focuses on what matters."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">SR</div>
+            <div>
+              <strong>Sarah R.</strong>
+              <span>Head of HR, TechScale Inc.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Our finance team was spending 30 hours a week on invoice processing. The Leadjio agent handles it all overnight — reconciled, categorized, and reported by morning."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">MA</div>
+            <div>
+              <strong>Michael A.</strong>
+              <span>CFO, Nexora Group</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"We went from 8-hour support response times to under 2 minutes with Leadjio's customer support agent. Our CSAT score jumped 40% in the first month."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">JP</div>
+            <div>
+              <strong>James P.</strong>
+              <span>VP Customer Success, Orbix</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="final-cta" id="contact">
+    <div class="cta-bg">
+      <div class="orb orb-cta-1"></div>
+      <div class="orb orb-cta-2"></div>
+    </div>
+    <div class="container cta-inner">
+      <div class="section-tag">Get Started</div>
+      <h2 class="cta-title">Ready to Automate Your Business?</h2>
+      <p class="cta-desc">Tell us about your workflow and we'll design an AI agent that handles it — so your team can focus on growth.</p>
+
+      <form class="cta-form" id="ctaForm">
+        <div class="form-row">
+          <input type="text" placeholder="Your Name" required class="form-input" />
+          <input type="email" placeholder="Work Email" required class="form-input" />
+        </div>
+        <div class="form-row">
+          <select class="form-input form-select" required>
+            <option value="" disabled selected>Select Your Industry</option>
+            <option>Education</option>
+            <option>Finance</option>
+            <option>HR & Recruitment</option>
+            <option>Sales & Marketing</option>
+            <option>Customer Support</option>
+            <option>Other / Custom</option>
+          </select>
+          <input type="text" placeholder="Company Name" class="form-input" />
+        </div>
+        <textarea placeholder="Briefly describe the task or workflow you want to automate..." class="form-input form-textarea" rows="4"></textarea>
+        <button type="submit" class="btn btn-primary btn-lg btn-full">
+          Send Me a Free Automation Plan
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </form>
+
+      <p class="cta-note">No commitment required. We'll send your custom automation plan within 24 hours.</p>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-icon">
+            <svg width="24" height="24" viewBox="0 0 28 28" fill="none">
+              <circle cx="14" cy="14" r="13" stroke="url(#footerLogoGrad)" stroke-width="2"/>
+              <path d="M8 14 L12 10 L16 14 L20 10" stroke="url(#footerLogoGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 18 L12 14 L16 18 L20 14" stroke="url(#footerLogoGrad)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+              <defs>
+                <linearGradient id="footerLogoGrad" x1="0" y1="0" x2="28" y2="28" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#7c3aed"/>
+                  <stop offset="1" stop-color="#a855f7"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </span>
+          <span class="logo-text">Leadjio</span>
+        </a>
+        <p>We turn everyday tasks into smart automation, so your business runs while you sleep.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Twitter">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/><path d="M7 10v7M7 7v.01M12 17v-4a2 2 0 014 0v4M12 10v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>Solutions</h5>
+          <ul>
+            <li><a href="#solutions">Education</a></li>
+            <li><a href="#solutions">Finance</a></li>
+            <li><a href="#solutions">HR & Recruitment</a></li>
+            <li><a href="#solutions">Sales & Marketing</a></li>
+            <li><a href="#solutions">Customer Support</a></li>
+            <li><a href="#solutions">Custom Agents</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#platform">Platform</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Data Protection</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>© 2025 Leadjio. All rights reserved.</span>
+        <span>Built to automate. Designed to scale.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
